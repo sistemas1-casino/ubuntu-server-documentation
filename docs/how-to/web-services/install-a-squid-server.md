@@ -52,7 +52,7 @@ The default setting is to use on-memory cache. This example tells squid to use u
 
 ```text
 cache_mem 512 MB
-maximum_memory_policy lru
+memory_replacement_policy lru
 ```
 
 ### Configure on-disk cache
